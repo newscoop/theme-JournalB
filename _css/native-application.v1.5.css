@@ -1,0 +1,25 @@
+.nav 	{ display: none; }
+.main 	{ padding-top: 0px !important; }
+
+.container .controlbar_mobile .favorite,
+.container .controlbar_mobile .share,
+.container .newsbox .favorite,
+.container .search-mobile,
+.container .controlicon.share,
+.container .controlicon.favorite,
+.container .controlbar_mobile .search h6
+{ display: block !important; }
+
+.container .aare
+{ display: none !important; }
+
+.container .newsbox .favorite:hover {  background-image: url(../_img/favorite-grey.png); }
+.container .controlicon.favorite:hover 	{ background-image: url(../_img/control-favorite.png); }
+
+.controlbar_mobile_front {
+	margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+	.header  { margin-top: -60px; }
+}

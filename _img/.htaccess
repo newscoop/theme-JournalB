@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+
+Options -MultiViews
+RewriteEngine on
+
+# redirect for retina devices
+RewriteCond %{HTTP_COOKIE} HTTP_IS_RETINA [NC]
+RewriteCond %{REQUEST_FILENAME} (.*)\.(png|jpg|jpeg)$
+RewriteCond %1@2x.%2 -f
+RewriteRule (.*)\.(png|jpg|jpeg)$ $1@2x.$2 [L]
+
+</IfModule>
+
+<IfModule mod_headers.c>
+
+# Cache static images for two weeks
+<FilesMatch "\.(jpe?g|png|gif|swf)$">
+Header set Cache-Control "max-age=1209600, public"
+</FilesMatch>
+
+</IfModule>

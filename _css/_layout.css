@@ -1,0 +1,5 @@
+NameError: .underlineblack is undefined in /Users/nachtmeister/Dropbox/Work/Journal B/Repositories/theme/_css/_layout.less on line 86, column 3:
+85 	.newsbox .dsect a:hover .subtitle {
+86 		.underlineblack;
+87 	}
+

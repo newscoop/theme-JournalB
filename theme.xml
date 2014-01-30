@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<theme name="Journal B" designer="Apps with love" version="1.2.3" require="4.0">
+    <description>JournalB</description>
+
+    <presentation-img src="themethumbs/front.jpg" name="Front page"/>
+    <presentation-img src="themethumbs/section.jpg" name="Section page"/>
+    <presentation-img src="themethumbs/article.jpg" name="Article"/>
+
+	<output name="Web">
+		<frontPage src="front.tpl"/>
+		<sectionPage src="section.tpl"/>
+		<articlePage src="article.tpl"/>
+		<errorPage src="404.tpl"/>
+	</output>
+
+	<renditions>
+		<rendition name="topfront" width="345" height="245" specs="crop"/>
+		<rendition name="topfrontdouble" width="710" height="490" specs="crop"/>
+		<rendition name="articlebig" width="470" height="315" specs="crop"/>
+        <rendition name="articlebigautosize" width="470" height="785" specs="fit"/>
+		<rendition name="articlebig_2x" width="1600" height="1072" specs="crop"/>
+		<rendition name="thumbnail" width="100" height="66" specs="crop"/>
+	</renditions>
+
+</theme>

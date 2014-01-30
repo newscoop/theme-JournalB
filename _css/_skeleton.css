@@ -1,0 +1,479 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+/* Table of Contents
+==================================================
+    #Base Grid
+    #Tablet (Portrait)
+	#Mobile 
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+/* #Base Grid
+================================================== */
+body {
+  text-align: center;
+}
+.container {
+  position: relative;
+  width: 968px;
+  margin: 0 auto;
+  text-align: left;
+}
+.row {
+  margin-bottom: 20px;
+}
+.container .main {
+  width: 710px;
+  float: left;
+}
+.container .sidebar {
+  width: 256px;
+  float: left;
+}
+.container .sidebar .content {
+  padding-left: 28px;
+}
+.container .newsbox {
+  width: 345px;
+}
+.container .newsbox.layoutdouble {
+  width: 710px;
+}
+.container .article-community .adbox hr {
+  width: 224px;
+  margin-left: -15px;
+}
+/* #Desktop
+================================================== */
+/* Note: Design for a width of 1024px */
+@media only screen and (min-width: 1024px) {
+  .container .controlbar_mobile {
+    display: none !important;
+    height: 0px !important;
+  }
+  .container .aare {
+    display: block !important;
+  }
+}
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 712px;
+  }
+  .container .main {
+    float: none;
+  }
+  .container .sidebar {
+    width: 450px;
+    margin: 0 auto;
+    float: none;
+  }
+  .container .sidebar .header {
+    display: none;
+  }
+  .container .sidebar .content {
+    padding-left: 0px !important;
+  }
+  .container .footer-box {
+    width: 194px;
+  }
+  .container .footer-sections {
+    width: 224px;
+    margin-bottom: 20px;
+  }
+  .container .footer-box.section-front {
+    float: none;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: auto !important;
+  }
+  .container .community-buttons {
+    display: none;
+  }
+  .container .collapse_content {
+    display: none !important;
+  }
+  .container .controlbar_mobile {
+    display: none !important;
+    height: 0px !important;
+  }
+  .container .aare {
+    display: block !important;
+  }
+}
+/*  #Mobile
+================================================== */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 294px;
+  }
+  .container .main {
+    width: 294px;
+    float: none;
+    padding-top: 54px;
+  }
+  .container .sidebar {
+    width: 100%;
+    float: none;
+  }
+  .container .sidebar .header {
+    display: none;
+  }
+  .container .sidebar .content {
+    padding-left: 0px !important;
+  }
+  .container .newsbox {
+    width: 294px;
+    margin-bottom: 20px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .container .newsbox.layoutdouble {
+    width: 294px !important;
+    height: auto !important;
+    min-height: 200px;
+  }
+  .container .newsbox.layoutbgimage {
+    height: auto !important;
+    min-height: 150px;
+  }
+  .container .header .aare {
+    display: none;
+  }
+  .container .header date {
+    display: none;
+  }
+  .container .header .search {
+    display: none;
+  }
+  .container .header .logo {
+    display: none;
+  }
+  .container .header .subtitle {
+    display: none;
+  }
+  .container .header {
+    height: auto;
+    border-bottom: 0 none;
+    margin-bottom: 0px !important;
+  }
+  .container .nav {
+    padding-top: 6px;
+    margin-bottom: 0px !important;
+    position: fixed;
+    z-index: 12;
+    background: #ffffff;
+    top: 0px;
+    left: 50%;
+    margin-left: -160px;
+  }
+  .container .nav .nav-front {
+    margin-right: 0px;
+  }
+  .container .nav .nav-fav {
+    display: none;
+  }
+  .container .nav li {
+    width: 77px !important;
+  }
+  .container .main_footer {
+    display: block !important;
+  }
+  .container .main_footer .nav li {
+    display: block !important;
+    width: 93px !important;
+    margin: 0px !important;
+  }
+  .container .addbar {
+    display: none;
+  }
+  .container .contentbar {
+    width: 100% !important;
+    padding-top: 0px;
+  }
+  .container .mcontentbar,
+  article header {
+    width: 100% !important;
+  }
+  .container .center_contentbar {
+    width: 100% !important;
+  }
+  .container .cs_img[style*="float:left"] {
+    margin-left: 0px !important;
+  }
+  .container .cs_img[style*="float:right"] {
+    margin-right: 0px !important;
+  }
+  .container blockquote {
+    margin-left: 0px !important;
+  }
+  .container blockquote.right {
+    margin-right: 0px !important;
+    margin-left: 20px !important;
+  }
+  .container .newsbox {
+    padding-bottom: 20px;
+  }
+  .container .newsbox description {
+    display: none !important;
+  }
+  .container .newsboxcontent .subtitle {
+    display: none !important;
+  }
+  .container .newsbox.layoutlist description {
+    display: block !important;
+  }
+  .container .newsbox.section-blogs .dsect description {
+    display: block !important;
+  }
+  .container .newsbox.section-dossiers .dsect description {
+    display: block !important;
+  }
+  .container .newsbox.layoutlist .dsect .description {
+    height: auto !important;
+  }
+  .container .article_info {
+    display: none;
+  }
+  .container .article_info_mobile {
+    display: block;
+  }
+  .container .controlbar_mobile {
+    display: block;
+  }
+  .container .collapse_content {
+    display: none !important;
+  }
+  .container .collapse_box .community-title.underline {
+    border-bottom: 0 none;
+  }
+  .container .footer-sections {
+    display: none;
+  }
+  .container .community-buttons {
+    display: none;
+  }
+  .container article .article_top {
+    min-height: 0px;
+  }
+  .container .newsbox .favorite {
+    display: none;
+  }
+  .container .controlicon.comments {
+    display: block;
+  }
+  .container .controlicon.share {
+    display: none;
+  }
+  .container .controlicon.favorite {
+    display: none;
+  }
+  .container .controlbar_mobile .search h6 {
+    display: none;
+  }
+  .container .content-right {
+    margin-left: 0px !important;
+  }
+}
+/* #Mobile (Portrait)
+================================================== */
+@media only screen and (max-width: 479px) {
+  .container .row {
+    margin-bottom: 13px;
+  }
+  .container .newsbox {
+    margin-bottom: 13px !important;
+  }
+  .container .header .nav {
+    width: 320px;
+  }
+  .container blockquote {
+    float: none !important;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+  }
+  .container .cs_img {
+    float: none !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    width: 100% !important;
+    text-align: center;
+  }
+  .container .cs_img_caption {
+    width: 222px !important;
+    position: static !important;
+    margin: 0 auto !important;
+    text-align: left;
+  }
+  .container .cs_img_caption.middle {
+    margin-top: 0px !important;
+  }
+  .container #dsqembed-0 {
+    width: 280px !important;
+  }
+  .container .footer-box {
+    width: 250px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .container .footer-box.section-front {
+    margin-bottom: 0px !important;
+    width: 250px !important;
+    height: auto !important;
+  }
+  .container .footer-sections {
+    width: 280px !important;
+    margin-bottom: 20px;
+  }
+  .container .footer-box.section-blogs {
+    height: auto !important;
+  }
+  .container .footer-box.section-dossiers {
+    height: auto !important;
+  }
+  .container .article-community.mobile {
+    display: block;
+  }
+  .container .article-community.stable {
+    display: none !important;
+  }
+  .container .sharebox {
+    left: 300px;
+  }
+  .container article iframe {
+    max-width: 294px !important;
+  }
+  .container .controlbar_mobile .aare {
+    margin-right: 15px;
+  }
+  .container .article-community .adbox hr {
+    width: 290px;
+    margin-left: -15px;
+  }
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 440px;
+  }
+  .container .main {
+    width: 440px;
+  }
+  .container .newsbox {
+    width: 440px;
+  }
+  .container .newsbox.layoutdouble {
+    width: 440px !important;
+  }
+  .container .nav {
+    margin-left: -240px;
+  }
+  .container .nav {
+    width: 480px;
+  }
+  .container .nav li {
+    width: 118px !important;
+  }
+  .container .main_footer .nav li {
+    width: 146px !important;
+  }
+  .container .cs_img_caption {
+    width: 222px !important;
+    position: static !important;
+  }
+  .container .cs_img_caption.middle {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+  .container #dsqembed-0 {
+    width: 440px !important;
+  }
+  .container .footer-box {
+    width: 180px;
+  }
+  .container .footer-box.section-blogs {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .container .footer-box.section-front {
+    margin-left: 0px;
+    width: 410px;
+  }
+  .container .footer-sections {
+    width: 440px !important;
+    margin-bottom: 20px;
+  }
+  .container .sharebox {
+    left: 220px;
+  }
+  .container article iframe {
+    max-width: 440px !important;
+  }
+  .container .controlbar_mobile .controlicon {
+    margin-right: 71px;
+  }
+  .container .controlbar_mobile .search input[type='text'] {
+    margin-right: 34px;
+    width: 260px;
+  }
+  .container .controlbar_mobile .aare {
+    margin-right: 71px;
+  }
+  .container .article-community .adbox hr {
+    width: 436px;
+    margin-left: -15px;
+  }
+}
+/* #Clearing
+================================================== */
+/* Self Clearing Goodness */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+.row,
+.clearfix {
+  zoom: 1;
+}
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

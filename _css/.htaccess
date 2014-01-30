@@ -1,0 +1,16 @@
+ExpiresActive On
+ExpiresDefault A259200
+
+<IfModule mod_headers.c>
+
+# Cache scripts and styles for two days
+<FilesMatch "\.(css|less|js)$">
+Header set Cache-Control "max-age=172800, proxy-revalidate"
+</FilesMatch>
+
+# Cache fonts for 3 months
+<FilesMatch "\.(eot|svg|woff)$">
+Header set Cache-Control "max-age=7257600, public"
+</FilesMatch>
+
+</IfModule>

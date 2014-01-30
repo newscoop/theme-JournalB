@@ -1,0 +1,5 @@
+NameError: .subheading is undefined in /Users/nachtmeister/Dropbox/Work/Journal B/Repositories/theme/_css/_slider.less on line 113, column 2:
+112 .gallery_status {
+113 	.subheading;
+114 	text-align: center;
+
