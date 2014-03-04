@@ -83,7 +83,7 @@
 	<a href="http://www.sourcefabric.org">Sourcefabric</a> |
 	<a href="http://www.radio-gelb-schwarz.ch">Radio Gelb-Schwarz</a>
 </div>
-{{ include file="_tpl/adsense.tpl" }}
+
 
 <!-- UI asset caching -->
 <div class="preload hidden">
