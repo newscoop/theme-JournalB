@@ -11,7 +11,11 @@ Journal B is Bern's first online-magazine reporting from Bern since 2013.
 «Journal B» ist ein Online-Magazin für Bern. Es berichtet
 über die Themen Politik, Kultur und Alltag.
 
-Sie finden «Journal B» auch auf Facebook und Twitter:
-
+Sie finden «Journal B» auch auf Facebook: 
 https://www.facebook.com/journalb.bern
+
+und Twitter: 
 https://twitter.com/JournalB
+
+
+
