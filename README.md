@@ -19,3 +19,8 @@ https://twitter.com/JournalB
 
 
 
+![Theme «Journal B»](http://i.imgur.com/QyOYpee.png)
+
+
+
+
