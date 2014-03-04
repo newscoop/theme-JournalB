@@ -1,3 +1,3 @@
 ## Configuration
 
-Please read the [instructions](https://github.com/appswithlove/JournalB/wiki/Configure-DISQUS) for configuration.
+Please read the [instructions](https://github.com/newscoop/theme-JournalB/wiki) for configuration.
