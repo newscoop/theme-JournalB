@@ -36,7 +36,9 @@
 	{{ /if }}
 
 {{ /list_related_articles }}
+<div class="row googlead">
 	{{ include file="_tpl/adsense.tpl" }}
+</div>
 <div class="row community-buttons">
 	<button onclick="showComments()" class="button-black" type="button">Kommentare<br><span class="num-comments"></span> lesen</button>
 	<button style="float: right;" onclick="document.location='#comments'" class="button-black" type="button">Kommentar<br>verfassen</button>

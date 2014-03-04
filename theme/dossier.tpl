@@ -22,7 +22,9 @@
         {{ include file="_tpl/community-header.tpl" }}
 
         <div class="row content">
+            <div class="row googlead ">
             {{ include file="_tpl/adsense.tpl" }}
+        </div>
             <div id="community"></div>
 
         </div>
