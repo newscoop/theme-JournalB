@@ -1,4 +1,4 @@
-theme-JournalB
+Theme of «Journal B»
 ==============
 
 Theme of «Journal B» - a beautiful online magazine based in Bern running Newscoop. 
