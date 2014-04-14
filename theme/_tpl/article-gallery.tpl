@@ -3,6 +3,7 @@
 {{ $has_image = false }}
 
 <div id="slider_box" class="slider_box">
+
   <div id="slider" class="slider">
     <ul>
 
@@ -11,7 +12,9 @@
       {{ if $item->is_image }}
       {{ if $item->image->width != 470 }} {{ continue }} {{ /if }}
       {{ $is_gallery = true }}
-      <li class="sli_image"><img src="{{ $item->image->src }}" alt="{{ $item->caption }}" /></li>
+      <li class="sli_image">
+        <span class="gallery_icon"></span>
+        <img src="{{ $item->image->src }}" alt="{{ $item->caption }}" /></li>
       {{ /if }}
 
       {{ if $item->is_video }}
@@ -50,6 +53,7 @@
 {{ $has_image = true }}
 {{$file_name = $image->src|replace: '/images/cache/470x785/fit/images%7C':''}}
 <div id="slider_box">
+  <span class="gallery_icon"></span>
 <div class="gallery_info stable"><div class="gallery_description">{{ $image->caption }}</div></div>
 
 <img href="/images/{{$file_name}}" src="{{ $image->src }}" alt="{{ $image->caption }}" title="{{ $image->caption }}" class="image-link responsive" />
