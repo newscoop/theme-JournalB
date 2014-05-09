@@ -13,8 +13,9 @@
       {{ if $item->image->width != 470 }} {{ continue }} {{ /if }}
       {{ $is_gallery = true }}
       <li class="sli_image">
-        <span class="gallery_icon"></span>
-        <img src="{{ $item->image->src }}" alt="{{ $item->caption }}" /></li>
+         <img src="{{ $item->image->src }}" alt="{{ $item->caption }}" />
+         <span class="gallery_icon"></span>
+       </li>
       {{ /if }}
 
       {{ if $item->is_video }}
