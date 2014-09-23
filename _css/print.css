@@ -14,7 +14,12 @@ a, a:visited, a:active { color:blue !important; text-decoration: none; }
 blockquote
 {margin-left:0px!important}
 .article_info
-{display:none}
+{position: inherit!important;
+width: 100%!important;
+text-align: left!important;
+float: left!important;}
+.article_info .author {float:left;}
+.article_info time {float:left;margin-left:20px;}
 .contentbar
 {width:100%!important}
 
