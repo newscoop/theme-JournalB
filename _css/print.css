@@ -22,4 +22,15 @@ float: left!important;}
 .article_info time {float:left;margin-left:20px;}
 .contentbar
 {width:100%!important}
-
+.gallery_info {
+position: inherit;
+width: 100px;
+top: 0px;
+width: 100%;
+float: left;
+}
+.gallery_description {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.gallery_icon {display:none;}
