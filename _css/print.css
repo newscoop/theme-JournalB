@@ -11,10 +11,14 @@ a, a:visited, a:active { color:blue !important; text-decoration: none; }
 .header {display:none}
 
 .sli_image { display: none; }
+.slider li {position:relative;}
 .sli_image:first-child { display: block!important;}
+.slider {margin-bottom: 18px;}
 #slider { display: block!important; }
 .cs_img { margin: 0 1em; }
-
+.gallery_control {display:none;}
+.gallery_status {display:none;}
+.gallery_icon {display:none;}
 blockquote
 {margin-left:0px!important}
 .article_info
