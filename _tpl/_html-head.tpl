@@ -23,7 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="{{ url static_file="_css/style.css?v=$VER_ENV" }}">
 	{{ /if }}
 
-	<link rel="stylesheet" type="text/css" media="print" href="{{ url static_file='_css/print.css' }}">
+	<link rel="stylesheet" type="text/css" media="print" href="{{ url static_file='_css/print.css?v=1.0' }}">
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="{{ url static_file='_img/favicon.ico' }}">
