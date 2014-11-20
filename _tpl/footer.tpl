@@ -15,7 +15,12 @@
 
     <div style="display: none;">
 		<div id="inline1" style="width:400px;height:auto;overflow:auto;">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+			<h4>Unterstützen Sie uns!</h4>
+			<p>Ihnen gefällt Journal B? Guter Journalismus und Medienvielfalt sind Ihnen etwas wert? 
+Unterstützen Sie Berns Medienvielfalt mit einer Spende oder einer Mitgliedschaft. 
+Wir danken Ihnen für Ihre Unterstützung!</p>
+
+<a href="http://www.journal-b.ch/de/static/mitglied" class="btn">Buttontext: Jetzt spenden!</a>
 		</div>
 	</div>
 

@@ -9,12 +9,18 @@
 <script src="{{ url static_file='_js/general.js' }}" type="text/javascript"></script>
 <script src="{{ url static_file='_js/tabs.js' }}" type="text/javascript"></script>
 <script src="{{ url static_file='_js/magnific.popup.js' }}" type="text/javascript"></script>
+<!-- /DEV -->
+{{ else }}
+<!-- PROD -->
+<script src="{{ url static_file="_js/all.min.js" }}" type="text/javascript"></script>
+<!-- /PROD -->
+{{ /if }}
 <script src="{{ url static_file='_js/fancybox/jquery.mousewheel-3.0.4.pack.js' }}" type="text/javascript"></script>
 <script src="{{ url static_file='_js/fancybox/jquery.fancybox-1.3.4.pack.js' }}" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="{{ url static_file='_js/fancybox/jquery.fancybox-1.3.4.css' }}" media="screen" />
 <script type="text/javascript">
 		$(document).ready(function() {
-			/*
+			
 
 			$("#various1").fancybox({
 				'titlePosition'		: 'inside',
@@ -23,13 +29,6 @@
 			});;
 		});
 	</script>
-<!-- /DEV -->
-{{ else }}
-<!-- PROD -->
-<script src="{{ url static_file="_js/all.min.js" }}" type="text/javascript"></script>
-<!-- /PROD -->
-{{ /if }}
-
 <div id="fb-root"></div>
 
 <script type="text/javascript">
