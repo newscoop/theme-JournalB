@@ -916,19 +916,8 @@ body {
     width: 436px;
     margin-left: -15px;
   }
-  #inline1 {
-  max-width:350px!important;
-  width:auto!important;
-  }
-  #fancybox-wrap{
-  max-width:350px!important;
-  width:auto!important;
-  }
-  #fancybox-content{
-  max-width:350px!important;
-  width:auto!important;
-  }
 }
+
 /* #Clearing
 ================================================== */
 /* Self Clearing Goodness */
