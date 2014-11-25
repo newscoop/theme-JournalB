@@ -86,8 +86,9 @@
 	-webkit-border-image: url('border.png') 45 54 31 repeat;
 	-o-border-image: url('border.png') 45 54 31 repeat;
 	border-image: url('border.png') 45 54 31 fill repeat;
+	text-align:left;
 }
-#fancybox-content + div {
+#fancybox-content > div {
 	background-color:#fff;
 	overflow: hidden;
 }
