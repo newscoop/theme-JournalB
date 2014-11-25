@@ -87,7 +87,10 @@
 	-o-border-image: url('border.png') 45 54 31 repeat;
 	border-image: url('border.png') 45 54 31 fill repeat;
 }
-
+#fancybox-content + div {
+	background-color:#fff;
+	overflow: hidden;
+}
 #fancybox-hide-sel-frame {
 	position: absolute;
 	top: 0;
@@ -100,8 +103,8 @@
 
 #fancybox-close {
 	position: absolute;
-	top: -15px;
-	right: -15px;
+	top: -4px;
+	right: -94px;
 	width: 30px;
 	height: 30px;
 	background: transparent url('fancybox.png') -40px 0px;
