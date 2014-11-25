@@ -14,13 +14,13 @@
     </div>
 
     <div style="display: none;">
-		<div id="inline1" style="overflow:hidden;background-color:#fff">
+		<div id="inline1" style="width:350px;height:auto;overflow:hidden;background-color:#ff;padding-bottom:15px;">
 			<h1>Unterstützen Sie uns!</h1>
-			<p>Ihnen gefällt Journal B? Guter Journalismus und Medienvielfalt sind Ihnen etwas wert?<br />
-			Unterstützen Sie Berns Medienvielfalt mit einer Spende oder einer Mitgliedschaft. 
-			Wir danken Ihnen für Ihre Unterstützung!</p>
+			<p>Ihnen gefällt Journal B? Guter Journalismus und Medienvielfalt sind Ihnen etwas wert? </p>
+<p>Unterstützen Sie Berns Medienvielfalt mit einer Spende oder einer Mitgliedschaft.
+Wir danken Ihnen für Ihre Unterstützung!</p>
 
-		<a href="http://www.journal-b.ch/de/static/mitglied" class="btn">Buttontext: Jetzt spenden!</a>
+<a href="http://www.journal-b.ch/de/static/mitglied" class="btn">Buttontext: Jetzt spenden!</a>
 		</div>
 	</div>
 
