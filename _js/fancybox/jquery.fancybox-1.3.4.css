@@ -333,16 +333,19 @@ a.btn:hover{
 @media only screen and  (max-width: 767px) {
 
     #inline1 {
-  max-width:350px!important;
+  max-width:300px!important;
   width:auto!important;
   }
   #fancybox-wrap{
-  max-width:350px!important;
+  max-width:300px!important;
   width:auto!important;
   }
   #fancybox-content{
-  max-width:350px!important;
+  max-width:300px!important;
   width:auto!important;
   }
-  
+  #fancybox-close {
+	top: -5px!important;
+	right: 0px!important;
+  }
   }
