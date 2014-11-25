@@ -9,7 +9,7 @@
 			{{ list_sections }}
 				<li class="nav-{{ $gimme->section->url_name }} section-{{ $gimme->section->url_name }}"><a href="{{ uri options="section" }}">{{ $gimme->section->name }}</a></li>
 			{{ /list_sections }}
-			<li><a id="various1" href="#inline1">PopUP</a></li>
+			
 		</ul>
     </div>
 
@@ -41,6 +41,7 @@ Wir danken Ihnen für Ihre Unterstützung!</p>
 		{{/if}}
 
 		{{ /list_articles }}
+		<li><a id="various1" href="#inline1">PopUP</a></li>
 		</ul>
 
 

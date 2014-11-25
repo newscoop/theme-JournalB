@@ -45,6 +45,8 @@
 	width: 100%;
 	z-index: 1100;
 	display: none;
+	background-color: rgb(65, 73, 84)!important;
+	opacity: 0.8!important;
 }
 
 #fancybox-tmp {
@@ -235,7 +237,7 @@ a.btn {
 	border-radius: 4px;
 }
 a.btn:hover{
-	background-color:#c8c1bd;
+	background-color:#aaa6a4;
 }
 .fancybox-title-outside {
 	padding-top: 10px;
