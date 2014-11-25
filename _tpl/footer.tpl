@@ -14,14 +14,15 @@
     </div>
 
     <div style="display: none;">
-		<div id="inline1">
-			<h1>Unterstützen Sie uns!</h1>
-			<p>Ihnen gefällt Journal B? Guter Journalismus und Medienvielfalt sind Ihnen etwas wert? </p>
-<p>Unterstützen Sie Berns Medienvielfalt mit einer Spende oder einer Mitgliedschaft.
-Wir danken Ihnen für Ihre Unterstützung!</p>
+		  <div id="inline1">
+      <h1>Ups! Werbung?</h1>
+      <p>Ja, Werbung für Medienvielfalt in Bern. Seit mehr als zwei Jahren berichtet Journal B über Politik, Kultur und Alltag. Finanziert durch Mitgliederbeiträge. Deshalb eben Werbung für neue Mitglieder.</p>
+<p>Herzlichen Dank, wenn auch Sie in Zukunft Journal B unterstützen!</p>
 
-<a href="http://www.journal-b.ch/de/static/mitglied" class="btn">Jetzt Mitglied werden!</a>
-		</div>
+<a href="http://www.journal-b.ch/de/static/mitglied" class="btn" style="margin-right:10px">Jetzt Mitglied werden!</a>
+
+<a href="#" class="btn">Jetzt spenden!</a>
+    </div>
 	</div>
 
 	<div class="footer-box section-blogs">
