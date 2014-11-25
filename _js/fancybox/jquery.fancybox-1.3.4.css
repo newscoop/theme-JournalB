@@ -218,7 +218,25 @@
 	background: #fff;
 	position: relative;
 }
-
+#inline1 {
+	width:350px;
+	height:auto;
+	overflow:hidden;
+	background-color:#fff;
+	padding-bottom: 22px;
+	margin-top: -14px;
+}
+a.btn {
+	background-color: #95908d;
+	padding: 8px 12px;
+	color: #fff;
+	margin-top: 10px;
+	float: left;
+	border-radius: 4px;
+}
+a.btn:hover{
+	background-color:#c8c1bd;
+}
 .fancybox-title-outside {
 	padding-top: 10px;
 	color: #fff;
