@@ -16,12 +16,10 @@
     <div style="display: none;">
 		  <div id="inline1">
       <h1>Ups! Werbung?</h1>
-      <p>Ja, Werbung für Medienvielfalt in Bern. Seit mehr als zwei Jahren berichtet Journal B über Politik, Kultur und Alltag. Finanziert durch Mitgliederbeiträge. Deshalb eben Werbung für neue Mitglieder.</p>
+      <p>Ja, Werbung für Medienvielfalt in Bern. Seit mehr als zwei Jahren berichtet Journal B über Politik, Kultur und Alltag. Finanziert durch Mitgliederbeiträge.</p>
 <p>Herzlichen Dank, wenn auch Sie in Zukunft Journal B unterstützen!</p>
 
 <a href="http://www.journal-b.ch/de/static/mitglied" class="btn" style="margin-right:10px">Jetzt Mitglied werden!</a>
-
-<a href="#" class="btn">Jetzt spenden!</a>
     </div>
 	</div>
 
