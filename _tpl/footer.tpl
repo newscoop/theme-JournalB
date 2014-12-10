@@ -14,7 +14,7 @@
     </div>
 
     <div style="display: none;">
-		  <div id="inline1">
+		  <div id="werbung-mitglied">
       <h1>Ups! Werbung?</h1>
       <p>Ja, Werbung für Medienvielfalt in Bern. Seit mehr als zwei Jahren berichtet Journal B über Politik, Kultur und Alltag. Finanziert durch Mitgliederbeiträge.</p>
 <p>Herzlichen Dank, wenn auch Sie in Zukunft Journal B unterstützen!</p>
@@ -40,7 +40,6 @@
 		{{/if}}
 
 		{{ /list_articles }}
-		<li><a id="various1" href="#inline1">PopUP</a></li>
 		</ul>
 
 
