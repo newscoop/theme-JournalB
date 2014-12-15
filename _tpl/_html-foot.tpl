@@ -63,7 +63,7 @@
             var openwerbungAuto = setTimeout(function() {
                 triggerWerbungPopup();
                 createCookie(werbungCookieName, werbungCookieDefaultValue, werbungCookieExpireInDays);
-            }, 30000);
+            }, 10000);
         }
 	</script>
 <div id="fb-root"></div>
