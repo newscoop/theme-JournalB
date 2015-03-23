@@ -18,7 +18,7 @@
 <script src="{{ url static_file='_js/fancybox/jquery.mousewheel-3.0.4.pack.js' }}" type="text/javascript"></script>
 <script src="{{ url static_file='_js/fancybox/jquery.fancybox-1.3.4.pack.js' }}" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="{{ url static_file='_js/fancybox/jquery.fancybox-1.3.4.css' }}" media="screen" />
-<script type="text/javascript">
+<!--<script type="text/javascript">
 		$(document).ready(function() {
 			
 
@@ -28,7 +28,7 @@
 				'transitionOut'		: 'none'
 			});;
 		});
-	</script>
+	</script>-->
 <div id="fb-root"></div>
 
 <script type="text/javascript">
