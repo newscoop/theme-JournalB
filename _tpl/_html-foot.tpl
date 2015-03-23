@@ -18,54 +18,7 @@
 <script src="{{ url static_file='_js/fancybox/jquery.mousewheel-3.0.4.pack.js' }}" type="text/javascript"></script>
 <script src="{{ url static_file='_js/fancybox/jquery.fancybox-1.3.4.pack.js' }}" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="{{ url static_file='_js/fancybox/jquery.fancybox-1.3.4.css' }}" media="screen" />
-<a id="fancybox-trigger" href="#werbung-mitglied" style="display:none"></a>
-<script type="text/javascript">
-        function triggerWerbungPopup() {
-            $("#fancybox-trigger").fancybox({
-                'titlePosition'     : 'inside',
-                'transitionIn'      : 'none',
-                'transitionOut'     : 'none'
-            });
-            $("#fancybox-trigger").trigger('click');
-        }
 
-        function createCookie(name,value,days) {
-            if (days) {
-                var date = new Date();
-                date.setTime(date.getTime()+(days*24*60*60*1000));
-                var expires = "; expires="+date.toGMTString();
-            }
-            else var expires = "";
-            document.cookie = name+"="+value+expires+"; path=/";
-        }
-
-        function readCookie(name) {
-            var nameEQ = name + "=";
-            var ca = document.cookie.split(';');
-            for(var i=0;i < ca.length;i++) {
-                var c = ca[i];
-                while (c.charAt(0)==' ') c = c.substring(1,c.length);
-                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-            }
-            return null;
-        }
-
-        function eraseCookie(name) {
-            createCookie(name,"",-1);
-        }
-
-        var werbungCookieName = 'werbungPopup',
-            werbungCookieDefaultValue = 'popupdisabled', 
-            werbungCookieExpireInDays = 7,
-            werbungCookieValue = readCookie(werbungCookieName);
-
-        if (werbungCookieValue === null || werbungCookieValue !== werbungCookieDefaultValue) {
-            var openwerbungAuto = setTimeout(function() {
-                triggerWerbungPopup();
-                createCookie(werbungCookieName, werbungCookieDefaultValue, werbungCookieExpireInDays);
-            }, 10000);
-        }
-	</script>
 <div id="fb-root"></div>
 
 <script type="text/javascript">
