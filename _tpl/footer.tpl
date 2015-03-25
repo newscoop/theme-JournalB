@@ -9,8 +9,11 @@
 			{{ list_sections }}
 				<li class="nav-{{ $gimme->section->url_name }} section-{{ $gimme->section->url_name }}"><a href="{{ uri options="section" }}">{{ $gimme->section->name }}</a></li>
 			{{ /list_sections }}
+			
 		</ul>
     </div>
+
+   
 
 	<div class="footer-box section-blogs">
 		<div class="caption"><a href="/de/blogs">Blogs</a></div>

@@ -7,6 +7,37 @@
 
 a, a:visited, a:active { color:blue !important; text-decoration: none; }
 
-.header .logo { display: block; position: relative; top:0px; left:0px; }	
+.header .logo { display: block; position: relative; top:0px; left:0px; }  
+.header {display:none}
 
+.sli_image { display: none; }
+.slider li {position:relative;}
+.sli_image:first-child { display: block!important;}
+.slider {margin-bottom: 18px;}
+#slider { display: block!important; }
 .cs_img { margin: 0 1em; }
+.gallery_control {display:none;}
+.gallery_status {display:none;}
+.gallery_icon {display:none;}
+blockquote
+{margin-left:0px!important}
+.article_info
+{position: inherit!important;
+width: 100%!important;
+text-align: left!important;
+float: left!important;}
+.article_info .author {float:left;}
+.article_info time {float:left;margin-left:20px;}
+.contentbar
+{width:100%!important}
+.gallery_info {
+position: inherit;
+width: 100%!important;
+left: 0px;
+top: 0px;
+}
+.gallery_description {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.gallery_icon {display:none;}
