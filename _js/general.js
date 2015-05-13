@@ -44,33 +44,36 @@ $(document).ready(function() {
 
 
 
-	//calculateNewsboxOverflow();
+	//calculateNewsboxOverflow(); // library.js
 
-	adjustNewsrows();
+	adjustNewsrows();				// library.js
 
-	//articleImageAlts();
+	//articleImageAlts();		// library.js
 
-	setupFavorites();
+	setupFavorites();				// faves.js
 
-	setupSliderBox();
+	setupSliderBox();				// library.js
 
-	controlIconsHover();
+	controlIconsHover();		// library.js
 
-	initShareButton();
+	initShareButton();			// community.js
 
-	aareTemperaturen();
+	fixAdsAnimated();				// community.js
 
-	loadFontSize();
+	aareTemperaturen();			// library.js
 
-	updateScreenMode();
+	loadFontSize();					// library.js
 
-	//collapsableElements();
+	updateScreenMode();			// library.js
 
-	scrollToArticleTop();
+	//collapsableElements();// library.js
 
-	if (NATIVE_APP && $("body").hasClass("article-page")) pinchArticle();
+	scrollToArticleTop();		// library.js
+
+	if (NATIVE_APP && $("body").hasClass("article-page"))
+		pinchArticle();				// library.js
 
 	document_loaded = true;
 
-	loadCommunity();
+	loadCommunity();				// community.js
 });
