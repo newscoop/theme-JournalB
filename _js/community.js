@@ -27,7 +27,7 @@ function initShareButton()
 function scaleCommunity()
 {
 	// Scale community (requires reverse), allow max. 3 comments on top
-	var max_height = $('.main').height() - 100, 
+	var max_height = $('.main').height() - 100,
 		sidebar = $('.sidebar');
 	if (!sidebar.hasClass('preview')) {
 
@@ -64,8 +64,27 @@ function drawAds()
 		current_ad_shift = 0;
 	}
 	current_ad_shift = ad1;
-	setCookie("adShift",current_ad_shift,7);		
+	setCookie("adShift",current_ad_shift,7);
 	if (ad1) $(".community-ads .adbox:nth-child("+ad1+")").insertAfter($(".sidebar .content .community-item")[pos1]);
+}
+
+// Enable GIF animations in ads
+function fixAdsAnimated()
+{
+	// Select all images in 'ad' articles
+	$("article.ad img.image-link.responsive").each(function() {
+		// Obtain current url(..) path to the image
+		u = this.src;
+		// Apply additional criteria to ensure target crop format
+		if (u.indexOf('/cache/')<0 || u.indexOf('.gif')<0) return;
+		// Use a regular expression to trim the crop path out
+		re = /cache\/[0-9]+x[0-9]+\/(crop[_0-9]*|fit)\/+images%7C/
+		v = u.replace(re, '');
+		// For debugging, output the result
+		//console.log(v);
+		// Set the new path to the original image
+		this.src = v;
+	});
 }
 
 // Load sidebar using Ajax
@@ -73,9 +92,9 @@ function loadCommunity()
 {
 	$.get('/mobile/community', function(data) {
 		$('#community').html(data);
-		
+
 		scaleCommunity();
-		
+
 		drawAds();
 	});
 	if (NATIVE_APP) {
