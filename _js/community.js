@@ -72,9 +72,10 @@ function drawAds()
 function fixAdsAnimated()
 {
 	// Select all images in 'ad' articles
-	$("article.ad img.image-link.responsive").each(function() {
+	$("a.section-ad.layoutbgimage, article.ad img.image-link").each(function() {
+		asBgImage = typeof $(this).attr('src') === "undefined";
 		// Obtain current url(..) path to the image
-		u = this.src;
+		u = asBgImage ? this.style.backgroundImage : this.src;
 		// Apply additional criteria to ensure target crop format
 		if (u.indexOf('/cache/')<0 || u.indexOf('.gif')<0) return;
 		// Use a regular expression to trim the crop path out
@@ -83,7 +84,11 @@ function fixAdsAnimated()
 		// For debugging, output the result
 		//console.log(v);
 		// Set the new path to the original image
-		this.src = v;
+		if (asBgImage) {
+			this.style.backgroundImage = v;
+		} else {
+			this.src = v;
+		}
 	});
 }
 
