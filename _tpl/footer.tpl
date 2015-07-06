@@ -13,7 +13,15 @@
 		</ul>
     </div>
 
-   
+   <div style="display: none;">
+   <div id="werbung-mitglied">    
+   <h1>Beitrag statt Abo</h1>    
+   <p>Um Zeitung zu lesen braucht man ein Abo. Journal B ist frei zugänglich und berichtet seit drei Jahren über Politik, Kultur und Alltag in Bern. Finanziert durch Mitgliederbeiträge. Leisten Sie einen Beitrag als Mitglied von Journal B. Herzlichen Dank!</p>    
+    
+<a href="http://www.journal-b.ch/de/static/mitglied" class="btn" style="margin-right:10px">Jetzt Mitglied werden!</a>    
+   </div>    
+	</div>  
+
 
 	<div class="footer-box section-blogs">
 		<div class="caption"><a href="/de/blogs">Blogs</a></div>
