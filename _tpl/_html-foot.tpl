@@ -60,8 +60,8 @@
 
 	if (werbungCookieValue === null || werbungCookieValue !== werbungCookieDefaultValue) {
 		var openwerbungAuto = setTimeout(function() {
-			triggerWerbungPopup();
-			createCookie(werbungCookieName, werbungCookieDefaultValue, werbungCookieExpireInDays);
+			/*triggerWerbungPopup();
+			createCookie(werbungCookieName, werbungCookieDefaultValue, werbungCookieExpireInDays);*/
 		}, 10000);
 	}
 </script>
