@@ -13,7 +13,8 @@
 		</ul>
     </div>
 
-   
+  
+
 
 	<div class="footer-box section-blogs">
 		<div class="caption"><a href="/de/blogs">Blogs</a></div>

@@ -14,7 +14,7 @@
 	<link>{{ url options="root_level" }}</link>
 </image>
 <atom:link href="{{ url options="root_level" }}/de/static/rss" rel="self" type="application/rss+xml" />
-{{list_articles length="20" ignore_issue="true" ignore_section="true" constraints="type is news" order="bypublishdate desc"}}
+{{list_articles length="20" ignore_issue="true" ignore_section="true" constraints="type is news type is blog type is kolumne type is kommentar" order="bypublishdate desc"}}
 <item>
 <title>{{$gimme->article->name|escape }}</title>
 <link>{{ url options="article" }}</link>
