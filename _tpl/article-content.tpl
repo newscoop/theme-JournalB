@@ -154,6 +154,9 @@
 	{{ /if }}
 
 	{{ else }}
+
+	{{ include file="_ads/monsterboard.tpl" }}
+	
 	<!-- Article forum -->
 	<div class="forum">
 
