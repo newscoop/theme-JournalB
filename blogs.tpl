@@ -22,8 +22,10 @@
         {{ include file="_tpl/community-header.tpl" }}
 
         <div class="row content">
-            {{ include file="_tpl/adsense.tpl" }}
+            {{ include file="_ads/adsense.tpl" }}
             <div id="community"></div>
+
+            {{ include file="_ads/skyscraper.tpl" }}
 
         </div>
 
