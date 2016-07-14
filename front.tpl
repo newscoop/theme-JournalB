@@ -6,6 +6,8 @@
 
 	<div class="main">
 
+		{{ include file="_ads/billboard.tpl" }}
+
 		{{ include file="_tpl/header.tpl" }}
 
 		<div class="row content">
@@ -27,12 +29,14 @@
 
 		<div class="row content">
 			<div class="row googlead ">
-            {{ include file="_tpl/adsense.tpl" }}
-        </div>
+            {{ include file="_ads/adsense.tpl" }}
+       		 </div>
 			<!-- Custom Add/Partners/Recommendations -->
 			{{ include file="_tpl/community-front.tpl" }}
 			<!-- Community -->
 			{{ render file="_tpl/community.tpl" section=2 article=0 }}
+
+			{{ include file="_ads/skyscraper.tpl" }}
 
 
 

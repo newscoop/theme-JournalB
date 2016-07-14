@@ -23,9 +23,11 @@
 
         <div class="row content">
             <div class="row googlead ">
-            {{ include file="_tpl/adsense.tpl" }}
+            {{ include file="_ads/adsense.tpl" }}
         </div>
             <div id="community"></div>
+
+            {{ include file="_ads/skyscraper.tpl" }}
 
         </div>
 
