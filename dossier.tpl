@@ -5,6 +5,8 @@
 <div class="prevent-horizontal-scroll">
 <div class="container">
 
+{{ include file="_ads/billboard.tpl" }}
+
     <div class="main">
 
 		{{ include file="_tpl/header.tpl" }}
