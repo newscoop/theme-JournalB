@@ -1,7 +1,6 @@
-<!--if not mobile-->
-{{ if !$isMobDevice }} 
-<!--if not mobile-->
 
+{{ if !$isMobDevice }} 
+<div class="openx-ads">
 <!--/*
   *
   * Revive Adserver Javascript Tag
@@ -42,5 +41,5 @@
    if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
    document.write ("'><\/scr"+"ipt>");
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=aa031c20&amp;cb=4' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=406&amp;cb=4&amp;n=aa031c20' border='0' alt='' /></a></noscript>
-
+</div>
 {{ /if }}

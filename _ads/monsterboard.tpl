@@ -1,6 +1,6 @@
-<!--if not mobile-->
+
 {{ if !$isMobDevice }} 
-<!--if not mobile-->
+<div class="openx-ads">
 
 <!--/*
   *
@@ -42,5 +42,5 @@
    if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
    document.write ("'><\/scr"+"ipt>");
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=ac72d30b&amp;cb=5' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=408&amp;cb=5&amp;n=ac72d30b' border='0' alt='' /></a></noscript>
-
+</div>
 {{ /if }}
