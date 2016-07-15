@@ -1,6 +1,6 @@
 
 
-{{ if !$isMobDevice }} 
+{{ if $isMobDevice == '0' }}
 
 <div class="openx-ads">
 <!--/*

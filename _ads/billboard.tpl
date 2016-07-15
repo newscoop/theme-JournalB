@@ -1,5 +1,5 @@
 
-{{ if !$isMobDevice }} 
+{{ if $isMobDevice == '0' }}
 
 <div class="openx-ads"> 
 
@@ -45,7 +45,7 @@
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=ab18fe8f&amp;cb=1' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=404&amp;cb=1&amp;n=ab18fe8f' border='0' alt='' /></a></noscript>
 
 </div>
-{{ else }}
+{{ elseif $isMobDevice == '1' }}
 
 <div class="openx-ads">
 <!--/*
