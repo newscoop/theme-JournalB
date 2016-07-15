@@ -1,7 +1,7 @@
 
 {{ if !$isMobDevice }} 
 
-<div class="openx-ads">
+<div class="openx-ads"> 
 
 <!--/*
   *
