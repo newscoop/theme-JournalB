@@ -4,9 +4,9 @@
 
 <div class="container">
 
-	<div class="main">
+	{{ include file="_ads/billboard.tpl" }}
 
-		{{ include file="_ads/billboard.tpl" }}
+	<div class="main">
 
 		{{ include file="_tpl/header.tpl" }}
 
