@@ -1,5 +1,5 @@
 
-{{ if !$isMobDevice }} 
+{{ if $isMobDevice == '0' }}
 <!--/*
   *
   * Revive Adserver Javascript Tag
@@ -41,8 +41,8 @@
    document.write ("'><\/scr"+"ipt>");
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=a84867c4&amp;cb=2' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=405&amp;cb=2&amp;n=a84867c4' border='0' alt='' /></a></noscript>
 
-{{ else }}
-<div class="openx-ads">
+{{ elseif $isMobDevice == '10' }}
+<div class="openx-ads mobile">
 <!--/*
   *
   * Revive Adserver Javascript Tag
