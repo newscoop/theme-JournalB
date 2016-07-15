@@ -1,6 +1,7 @@
-<!--if not mobile-->
-{{ if $isMobDevice == '0' }} 
-<!--if not mobile-->
+
+{{ if !$isMobDevice }} 
+
+<div class="openx-ads">
 
 <!--/*
   *
@@ -43,9 +44,10 @@
    document.write ("'><\/scr"+"ipt>");
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=ab18fe8f&amp;cb=1' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=404&amp;cb=1&amp;n=ab18fe8f' border='0' alt='' /></a></noscript>
 
-{{ elseif $isMobDevice == '1' }}
+</div>
+{{ else }}
 
-
+<div class="openx-ads">
 <!--/*
   *
   * Revive Adserver Javascript Tag
@@ -86,5 +88,5 @@
    if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
    document.write ("'><\/scr"+"ipt>");
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=a6aa647a&amp;cb=6' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=410&amp;cb=6&amp;n=a6aa647a' border='0' alt='' /></a></noscript>
-
+</div>
 {{ /if }}
