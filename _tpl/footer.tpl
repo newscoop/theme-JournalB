@@ -1,9 +1,7 @@
 <div style="clear:both"></div>
 
-{{ include file="_ads/leaderboard.tpl" }}
-
 <div class="footer">
-
+{{ include file="_ads/leaderboard.tpl" }}
 	<div class="footer-sections">
         <ul>
 			<li class="nav-front section-front"><a href="/">Front</a></li>
