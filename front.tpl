@@ -3,7 +3,7 @@
 <body id="body" class="front-page">
 
 <div class="container">
-	<p>$isMobDevice = {{ isMobDevice }}</p>
+	<p>$isMobDevice = {{ $isMobDevice }}</p>
 	{{ include file="_ads/billboard.tpl" }}
 
 	<div class="main">
