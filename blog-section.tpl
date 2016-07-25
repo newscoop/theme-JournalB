@@ -1,3 +1,4 @@
+{{ include file="_ads/_ismobdevice.tpl" }}
 {{ include file="_tpl/_html-head.tpl" }}
 <!-- blog-section.tpl -->
 <body id="body" class="section-page">
@@ -47,7 +48,7 @@
         </div>
 
     </div>
-</div>
+
 	{{ include file="_tpl/footer.tpl" }}
 
 </div><!-- /container -->
