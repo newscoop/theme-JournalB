@@ -30,7 +30,7 @@
 		<div class="row content">
 			<div class="row googlead ">
             {{ include file="_ads/adsense.tpl" }}
-       		 </div>
+         </div>
 			<!-- Custom Add/Partners/Recommendations -->
 			{{ include file="_tpl/community-front.tpl" }}
 			<!-- Community -->
@@ -43,7 +43,7 @@
 		</div>
 
 	</div>
-
+	{{ include file="_ads/leaderboard.tpl" }}
 	{{ include file="_tpl/footer.tpl" }}
 
 </div><!-- /container -->
