@@ -36,7 +36,7 @@
 		</div>
 
 	</div>
-	{{ include file="_ads/leaderboard.tpl" }}
+
 	{{ include file="_tpl/footer.tpl" }}
 
 </div><!-- /container -->
