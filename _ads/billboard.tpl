@@ -1,12 +1,12 @@
 
-{{* if $isMobDevice == '0' *}}
+{{ if $isMobDevice == '0' }}
 
 <div class="openx-ads"> 
 <ins data-revive-zoneid="404" data-revive-target="_blank" data-revive-id="c6f1d037b910aeaf56bfeaf92b8cd2ed"></ins>
 <script async src="//openx.sourcefabric.net/delivery/asyncjs.php"></script>
 </div>
 
-{{* elseif $isMobDevice == '1' }}
+{{ elseif $isMobDevice == '1' }}
 
 <div class="openx-ads">
 
@@ -27,4 +27,4 @@
 //]]>--></script><noscript><a href='http://openx.sourcefabric.net/delivery/ck.php?n=a6aa647a&amp;cb=6' target='_blank'><img src='http://openx.sourcefabric.net/delivery/avw.php?zoneid=410&amp;cb=6&amp;n=a6aa647a' border='0' alt='' /></a></noscript>
 </div>
 
-{{ /if *}}
+{{ /if }}

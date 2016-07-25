@@ -52,7 +52,7 @@
 	{{ /list_article_images }}
 	{{ /if }}
 
-	{{ render file="_ads/_ismobdevice.tpl" }}
+	{{ include file="_ads/_ismobdevice.tpl" }}
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="{{ url static_file='_js/jquery-1.8.3.min.js' }}"><\/script>')</script>
