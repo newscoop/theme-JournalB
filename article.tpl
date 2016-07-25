@@ -32,7 +32,7 @@
 			</div>
 			
             <div id="community"></div>
-
+			{{ include file="_ads/skyscraper.tpl" }}
         </div>
 
     </div>
