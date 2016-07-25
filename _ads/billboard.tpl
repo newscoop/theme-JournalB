@@ -8,7 +8,7 @@
 
 {{ elseif $isMobDevice == '1' }}
 
-<div class="openx-ads">
+<div class="openx-ads mobile">
 
 <script type='text/javascript'><!--//<![CDATA[
    var m3_u = (location.protocol=='https:'?'https://openx.sourcefabric.net/delivery/ajs.php':'http://openx.sourcefabric.net/delivery/ajs.php');

@@ -1,3 +1,4 @@
+{{ include file="_ads/_ismobdevice.tpl" }}
 {{ include file="_tpl/_html-head.tpl" }}
 <!-- front.tpl -->
 <body id="body" class="front-page">
@@ -42,7 +43,6 @@
 
 		</div>
 
-	</div>
 	</div>
 	
 	{{ include file="_tpl/footer.tpl" }}
