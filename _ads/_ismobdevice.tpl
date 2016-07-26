@@ -2,11 +2,3 @@
 {{ if isset($smarty.request.mobile) || isset($smarty.request.tablet) || isset($smarty.request.phone) || ($gimme->browser->browser_working == "webkit" && $gimme->browser->ua_type == 'mobile') }}
     {{ $isMobDevice=1 scope="global" }}
 {{ /if }}
-
-{{* dynamic }}
-{{ assign var="isMobDevice" value="0" scope="global" }}
-{{ $sdsdfsd = "sdfssd" }}
-{{ if isset($smarty.request.mobile) || isset($smarty.request.tablet) || isset($smarty.request.phone) || ($gimme->browser->browser_working == "webkit" && $gimme->browser->ua_type == 'mobile') }}
-    {{ assign var="isMobDevice" value="1" scope="global" }}
-{{ /if }}
-{{ /dynamic *}}
