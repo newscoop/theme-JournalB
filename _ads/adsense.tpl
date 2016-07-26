@@ -1,3 +1,4 @@
+{{ dynamic }}
 {{ if $isMobDevice == '0' }}
 
 <div class="openx-ads">
@@ -6,3 +7,4 @@
 </div>
 
 {{ /if }}
+{{ /dynamic }}
