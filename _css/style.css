@@ -3466,6 +3466,13 @@ body {
 
   -webkit-text-size-adjust: 100%;
 }
+.openx-ads {
+  text-align: center;
+}
+.openx-ads.mobile a img {
+  margin-top: 71px;
+}
+
 .font0 .font-sens {
   font-size: 82%;
   letter-spacing: 0.025em;

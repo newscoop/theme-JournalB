@@ -1,3 +1,4 @@
+{{ include file="_ads/_ismobdevice.tpl" }}
 {{ include file="_tpl/_html-head.tpl" }}
 <!-- blog-section.tpl -->
 <body id="body" class="section-page">
@@ -5,6 +6,8 @@
 
 <div class="prevent-horizontal-scroll">
 <div class="container">
+
+    {{ include file="_ads/billboard.tpl" }}
 
     <div class="main">
 
@@ -35,10 +38,12 @@
         {{ include file="_tpl/community-header.tpl" }}
 
         <div class="row content">
-            {{ include file="_tpl/adsense.tpl" }}
+            {{ include file="_ads/adsense.tpl" }}
 			{{ include file="_tpl/community-sectionbox.tpl" }}
 
             <div id="community"></div>
+
+            {{ include file="_ads/skyscraper.tpl" }}
 
         </div>
 
