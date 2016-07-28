@@ -1,5 +1,5 @@
 {{ dynamic }}
-{{ if isset($isMobDevice) }}
+
 {{ if $isMobDevice == 0 }}
 
 <div class="openx-ads"> 
@@ -15,5 +15,5 @@
 </div>
 
 {{ /if }}
-{{ /if }}
+
 {{ /dynamic }}
