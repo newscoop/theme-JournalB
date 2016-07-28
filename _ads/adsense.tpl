@@ -1,4 +1,5 @@
 {{ dynamic }}
+{{ if isset($isMobDevice) }}
 {{ if $isMobDevice == 0 }}
 
 <div class="openx-ads">
@@ -6,5 +7,6 @@
 <script async src="//openx.sourcefabric.net/delivery/asyncjs.php"></script>
 </div>
 
+{{ /if }}
 {{ /if }}
 {{ /dynamic }}
