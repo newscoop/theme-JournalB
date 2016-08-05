@@ -1,10 +1,14 @@
+{{ include file="_ads/_ismobdevice.tpl" }}
 {{ include file="_tpl/_html-head.tpl" }}
 <!-- article.tpl -->
 <body id="body" class="article-page">
 {{ include file="_tpl/detect-fontsize.tpl" }}
 
 <div class="prevent-horizontal-scroll">
+
 <div class="container">
+
+    {{ include file="_ads/billboard.tpl" }}
 
     <div class="main">
 
@@ -29,11 +33,11 @@
 			</div>
 			
             <div id="community"></div>
-
+			{{ include file="_ads/skyscraper.tpl" }}
         </div>
 
     </div>
-	
+
 	{{ include file="_tpl/footer.tpl" }}
 
 </div><!-- /container -->
