@@ -1,5 +1,7 @@
 <div style="clear:both"></div>
-
+<div style="min-height: 90px; max-width: 728px">
+{{ include file="_ads/leaderboard.tpl" }}
+</div>
 <div class="footer">
 
 	<div class="footer-sections">
@@ -13,7 +15,8 @@
 		</ul>
     </div>
 
-   
+  
+
 
 	<div class="footer-box section-blogs">
 		<div class="caption"><a href="/de/blogs">Blogs</a></div>

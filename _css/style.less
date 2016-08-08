@@ -37,7 +37,12 @@ body {
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
-
+.openx-ads {
+  text-align:center
+}
+.openx-ads.mobile a img {
+  margin-top:71px
+}
 .font0 .font-sens {
 	font-size: 82%;
 	letter-spacing: 0.025em;
@@ -276,7 +281,21 @@ p a[href^='http://www.journal-b.ch'], p a[href^='http://dev.journal-b.ch'], p a[
     white-space:normal;
 }
 
-
+/* Custom ad-box mouseovers */
+.newsbox.section-ad .info_block {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s,opacity 0.4s linear;
+  -moz-transition: visibility 0s linear 0.3s,opacity 0.4s linear;
+  -webkit-transition: visibility 0s linear 0.3s,opacity 0.4s linear;
+}
+.newsbox.section-ad:hover .info_block {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  -webkit-transition: opacity 2s linear;
+}
 
 img.responsive{
   max-width:100%;

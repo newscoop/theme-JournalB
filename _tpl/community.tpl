@@ -1,3 +1,4 @@
+{{ if !isset($custom) }}{{ $custom = 0 }}{{ /if }}
 {{ if !$custom }}<div id="community">{{ /if }}
 
 {{ if !preg_match("/Journal/", $smarty.server.HTTP_USER_AGENT) || $custom }}
@@ -86,3 +87,4 @@
 {{ /if }}
 
 {{ if !$custom }}</div>{{ /if }}
+
