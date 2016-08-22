@@ -1,3 +1,4 @@
+{{ include file="_ads/_ismobdevice.tpl" }}
 {{ include file="_tpl/_html-head.tpl" }}
 <!-- blogs.tpl -->
 <body id="body" class="section-page">

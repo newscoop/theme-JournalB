@@ -1,3 +1,4 @@
+{{ include file="_ads/_ismobdevice.tpl" }}
 {{ include file="_tpl/_html-head.tpl" }}
 <!-- article.tpl -->
 <body id="body" class="article-page">
@@ -32,11 +33,11 @@
 			</div>
 			
             <div id="community"></div>
-
+			{{ include file="_ads/skyscraper.tpl" }}
         </div>
 
     </div>
-	
+
 	{{ include file="_tpl/footer.tpl" }}
 
 </div><!-- /container -->

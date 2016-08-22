@@ -4,7 +4,7 @@
 		{{ if $gimme->current_list->at_beginning }}
 		<div class="row adbox authorbox">
 			<div class="community-title grey">Autor/Autorin</div>
-			<div class="description">
+			<div class="description1">
 		{{ /if }}
 			{{ $ren = false }}
 			{{ foreach from=$rendered_authors item=author }} {{ if $author == $gimme->author->name }} {{ $ren = true }} {{ break }} {{ /if }} {{ /foreach }}
