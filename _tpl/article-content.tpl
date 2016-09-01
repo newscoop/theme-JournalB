@@ -157,7 +157,7 @@
 
 	{{ include file="_ads/monsterboard.tpl" }}
 
-	{{ include file="_tpl/mobile-ad.tpl" }}
+	{{ include file="_ads/mobile-ad.tpl" }}
 
 	<!-- Article forum -->
 	<div class="forum">

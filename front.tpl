@@ -38,8 +38,8 @@
             {{ include file="_ads/adsense.tpl" }}
          </div>
       <!-- Custom Add/Partners/Recommendations -->
-      {{ include file="_tpl/mobile-ad.tpl" }}
-      
+      {{ include file="_ads/mobile-ad.tpl" }}
+
       {{ include file="_tpl/community-front.tpl" }}
       <!-- Community -->
       {{ render file="_tpl/community.tpl" section=2 article=0 }}
