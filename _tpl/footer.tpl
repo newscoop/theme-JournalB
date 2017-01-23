@@ -73,7 +73,7 @@
 		<span class="community-rss">
 			<a href="http://{{ $gimme->publication->site }}/de/static/rss/">RSS</a> |
 		</span>
-		<a href="http://eepurl.com/pgobL">Newsletter</a> |
+		<a href="https://newsletter.journal-b.ch">Newsletter</a> |
 		<a href="http://www.facebook.com/journalb.bern">Facebook</a> |
 		<a href="http://twitter.com/journalb">Twitter</a>
 		</li></ul>
