@@ -36,7 +36,7 @@
 		  // Make sure url to get is defined
 		  if(url == null) return false;
 		  // Build Google Feed API URL
-		  var gurl = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&q="+url;
+		  var gurl = "https://intern.journal-b.ch/feedreader/feedreader.php?v=1.0&callback=?&q="+url;
 		  if(num != null) gurl += "&num="+num;
 		  if(key != null) gurl += "&key="+key;
 
