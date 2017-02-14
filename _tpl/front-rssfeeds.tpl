@@ -36,7 +36,7 @@
 		  // Make sure url to get is defined
 		  if(url == null) return false;
 		  // Build Google Feed API URL
-		  var gurl = "https://intern.journal-b.ch/feedreader/feedreader.php?v=1.0&callback=?&q="+url;
+		  var gurl = "https://intern.journal-b.ch/feedreader/feedreader.php?q="+url;
 		  if(num != null) gurl += "&num="+num;
 		  if(key != null) gurl += "&key="+key;
 
@@ -49,7 +49,7 @@
 		  	console.log(data);
 		  	if(data.responseStatus == 200){
 		        if(typeof fnk == 'function')
-		                  fnk.call(this, data.responseData.feed, element);
+		                  fnk.call(this, data, element);
 		                else
 		                  return false;
 		    } else {
